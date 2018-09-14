@@ -4,13 +4,9 @@
       <v-flex xs12 md9 class="ma-2 mychart">
         <line-chart 
         height="50vh"
-        :download="true"
         :data=chartDataIc
-
         :dataset=chartDataSetIc
-        
         :library=chartOptionsIc
-
         ></line-chart>
       </v-flex>
     </v-layout>
@@ -19,13 +15,9 @@
       <v-flex xs12 md9 class="ma-2 mychart">
         <line-chart 
         height="50vh"
-        :download="true"
         :data=chartDataUc
-
         :dataset=chartDataSetUc
-        
         :library=chartOptionsUc
-
         ></line-chart>
       </v-flex>
     </v-layout>
